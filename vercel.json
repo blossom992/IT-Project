@@ -1,0 +1,11 @@
+{
+  "installCommand": "npm install --prefix it-project",
+  "buildCommand": "npm run build --prefix it-project",
+  "outputDirectory": "it-project/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
