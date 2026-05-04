@@ -150,9 +150,7 @@ function Quote() {
             <p className="text-sm font-black uppercase tracking-[0.18em] text-[#4255ff]">Try it</p>
             <h2 className="mt-2 text-3xl font-black text-slate-950 sm:text-4xl">Interactive flashcards</h2>
           </div>
-          <p className="max-w-xl text-sm leading-7 text-slate-600 sm:text-right">
-            Tap a card to flip between the question and answer. The layout adapts from phones to wide screens.
-          </p>
+          
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((card, idx) => (
